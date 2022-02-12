@@ -1,0 +1,94 @@
+/*Variables Bootstrap*/
+
+$primary: #fff;
+$secondary: #4452FE;
+$success: #02E4C0 ;
+$dark: #181818;
+$info: #5C5C5C; 
+$danger:  #343434;
+
+
+$font-family-sans-serif: 'Poppins', sans-serif;
+
+$line-height-lg: 3;
+
+/*Variables propias*/
+$border-color: #565656;
+$bg-secondary: #1E1E1E;
+
+.w-sm-50{
+    width: 50%;
+}
+
+.w-65{
+    width: 65%;
+}
+
+.w-120{
+    width: 140%;
+}
+
+.w-25px{
+    width: 25px;
+}
+
+.height-100px{
+    height: 100px;
+}
+
+.height-70px{
+    height: 70px;
+}
+
+.height-421px{
+    height: 421px;
+}
+
+.border-color{
+    border-color: $border-color;
+}
+
+.background-secondary{
+    background-color: $bg-secondary;
+}
+
+.fs-52px{
+    font-size: 52px;
+}
+
+@media screen and (min-width: 768px) {
+    .height-600px {
+        height: 600px;
+    }
+
+    .height-296px {
+        height: 296.38px;
+    }
+
+    .height-100{
+        height: 100%;
+    }
+
+    .w-md-25{
+        width: 25% !important;
+    }
+
+    .rounded-5{
+        border-radius: 25px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .heigh-224px{
+      height: 224.38px;
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    .heigh-272px{
+      height: 272.38px;
+    }
+  }
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
